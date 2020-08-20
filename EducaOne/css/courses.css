@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500");
+@import url("https://fonts.googleapis.com/css?family=Lato|Lobster|Pacifico|Patua+One|Poppins:100,200,300,400,500,700,900|Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato|Lobster|Pacifico|Patua+One|Poppins:100,200,300,400,500,700,900|Righteous&display=swap");
+
+
+
+
+
+
+
+
+/* ----------------------------------------------   SECTION BANNER TOP    -----------------------*/
+
+.section-courses-banner-top
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/breadcrumb.png');
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: inset -15px -15px 80px rgba(0,0,0,0.8);
+    perspective: 500px;
+    margin-bottom: 70px; 
+}
+
+.section-courses-banner-top .banner h2
+{
+    color: #fff!important;
+    margin-top: 146px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-courses-banner-top .banner h2::before
+{
+    content: " ";
+    border-left: 4px solid #bfa67a; 
+    display:flex; 
+    margin-left: 725px;
+    height: 27px;
+    top: 35px;
+    position: relative;
+ 
+}
+
+.section-courses-banner-top .banner p
+{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* ----------------------------------------------  SECTION BANNER TOP   -----------------------*/
+
+
+
+a{text-decoration: none !important;}
+
+section
+{
+    width: 100%;
+  
+}
+
+
+.course
+{
+  margin-right: -25px;
+  float: right;
+}
+
+.product-properties .description
+{
+    
+  font-family: "Roboto", sans-serif;
+  line-height: 1.929;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color:#888888;
+  text-align: justify!important;
+   
+}
+
+/*  ------------------- Card Courses --------*/
+
+.details-img
+{
+  height: 500px;
+  width: 500px;
+}
+
+.details-paragrah
+{
+  width: 52%;
+  margin-top: -30px;
+}
+.details-paragrah .icon
+{
+  font-size: 19px; 
+  font-size: 22px;
+margin-left: 168px;
+top: 40px;
+position: relative;
+}
+
+.details-paragrah .icon i
+{
+  margin-right: 10px;
+  color: #ff8c1a;
+} 
+
+.details-paragrah .icon i span
+{
+  margin-left: 10px;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.details a
+{
+  text-decoration: none;
+}
+
+
+.accordion
+{
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+
+.section-title i
+{
+  font-size: 28px;
+  color: #ff8c1a;
+}
+
+
+.accrodion-regular
+{
+  position: relative;
+    top: 5px;   
+    width: 101%;
+    margin: -169px -60px;
+    margin-bottom: 170px!important;
+
+}
+
+.accrodion-regular button
+{
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+.accrodion-regular button:hover
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+.accordion-card 
+{
+  max-width: 560px;
+  background: linear-gradient(0.25turn, #ffa500,  #ffb833,  #ffd280);
+
+}
+
+
+/*------------------------ COURSES  INDEX     -----------------------*/
+
+.containers
+{
+  max-width: 1400px!important;
+}
+
+
+
+.flip3D
+{
+  width: 370px;
+  height: 500px;   
+  margin:10px;
+  float:left;
+  margin-top: 119px;
+  width: 370px;
+  height: 600px;
+  margin-bottom: 100px!important;   
+}
+
+
+.flip3D > .front{
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 0deg );
+  width:370px;
+  height:600px;
+  border-radius: 7px 7px 0px 0px;
+	backface-visibility: hidden;
+  transition: transform .5s linear 0s;
+  
+}
+.flip3D:hover > .front{
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+
+/*----------   Card flip Front  ------*/
+
+.card-course-front img
+{
+  width: 370px;
+  height: 300px;
+  border-radius:7px 7px 0px 0px ;
+}
+.description-course-front
+{
+  width: 370px;
+  height: 300px;
+  border-left: 1px solid #acacab;
+  border-bottom: 1px solid #acacab;
+  border-right: 1px solid #acacab;
+}
+
+.description-title .description-subject
+{
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 3.5px 21px;
+  background:    #ff663b;  
+  display: inline-block;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  margin: 26px 30px!important;
+  
+}
+
+.description-title h4
+{
+  float: right;
+  color:#ff663b;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+  margin-right: 26px;
+}
+.course-title-front
+{
+  font-size: 20px;
+  font-weight: 600;
+  top: -23px;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color:#0c2e60!important;
+  font-family: "Poppins", sans-serif;
+}
+.course-title-front p
+{
+  margin: 23px!important;
+}
+
+
+.product-rating {
+  padding: 0 20px;
+  font-size: 11px;
+  margin-top: -31px!important;
+  position: absolute;
+}
+.product-rating i
+{
+    color: #ffd414;
+}
+
+.product-rating i.grey {
+  color: #acacab;
+}
+
+.product-rating h5 {
+  font-size: 11px;
+  margin: -15px 85px;
+  color: #888888;
+  
+
+}
+
+.overveiw
+{
+  margin: 21px !important;
+
+}
+/*-------------- End Card Course Front   --------*/
+
+
+
+/*-------------- Card Course Back   --------*/
+
+.flip3D > .back{
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 180deg );
+  width: 370px;
+  height:600px;
+  border-radius: 7px 7px 0px 0px;
+	backface-visibility: hidden;
+  transition: transform .5s linear 0s;
+  border: 1px solid #acacab;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.flip3D:hover > .back{
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+
+.course-title-back
+{
+  font-size: 20px;
+  font-weight: 600;
+   position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color:#0c2e60!important;
+  font-family: "Poppins", sans-serif;
+}
+
+.course-title-back p
+{
+  margin: 70px 46px;
+  font-size: 24px;
+}
+.course-subject
+{
+  margin: 21px;
+}
+
+.course-subject span
+{
+  color: #ff663b;
+  padding: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+ position: relative;
+ top: -49px;
+}
+
+.course-subject a
+{
+  font-size: 15px; 
+  color: #0c2e60;
+  font-weight: 600;
+  top: -49px;
+  position: relative;
+}
+
+.back button
+{
+  margin: 20px 130px;
+  border: 1px solid #ff663b!important;
+}
+
+.back button a
+{
+  color: #ff663b!important;
+}
+
+.back button:hover
+{
+  background: #ff663b!important;
+}
+.back button a:hover
+{
+ 
+  color: #fff!important;
+}
+
+.icon-course
+{
+  top: -69px;
+  position: relative; 
+  margin: 23px 28px;
+}
+
+.icon-course .icon
+{
+  padding: 10px 0px;
+}
+
+.icon-course .icon i
+{
+  font-size: 22px;
+  color: #ff663b;
+  margin-right: 10px;
+}
+.icon-course .icon  span
+{
+  font-size: 17px;
+color:
+    #0c2e60;
+    font-weight: 600;
+
+}
+.stat i
+{
+  font-size: 45px;
+}
+.stat-items h2
+{
+  font-weight: bolder;
+  font-size: 32px;
+  color: darkorange;
+}
+
+.stat p
+{
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+/*-------------------- counter-------------------*/
+
+.stat
+{
+  background:#011627;;
+  padding-top:80px ;
+  padding-bottom: 80px;
+  color: #fff;
+  margin-top: -48px;
+}

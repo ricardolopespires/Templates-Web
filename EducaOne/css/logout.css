@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato|Lobster|Pacifico|Patua+One|Poppins:100,200,300,400,500,700,900|Righteous&display=swap");
+
+
+
+.dashboard-wrapper-logout
+{
+    margin-top: 100px!important;
+}
+
+
+.row-logout
+{
+    background-color: #fff!important;
+    margin-left: -151px!important;
+}
+
+
+.logo-logout a img
+{
+    margin-left: 591px;
+    margin-top: 168px;
+    width: 341px;
+}
+
+.logout-text  h1
+{
+    margin-left: 597px;
+    margin-top: 23px;
+    font-family: 'Patua One', cursive!important;
+    font-size: 44px;
+}
+
+.logout-text p
+{
+    margin-left: 500px;
+    margin-top: 7px;    
+    position: absolute;
+    font-size: 19px;
+    font-weight: 501;
+}
+.p-email
+{
+    margin-left: 925px!important;
+}                 
+
+
+.Ess-input input
+{
+    margin-left: 299px;
+    height: 37px;
+    margin-top: -1px;
+    color: #fff; 
+    border: none;   
+    background-image: linear-gradient(to left, rgba(25, 52, 103), rgba(15, 31, 61)); 
+}
+
+.logout-text a
+{
+    color:  #ffa500;
+    font-weight: 600;
+    margin-left: 970px;
+    top: 90px;
+    position: absolute;
+    font-size: 20px!important;
+    
+}
+
+
+.welcome-login
+{
+    margin-left: 876px!important;
+}
+
+
