@@ -1,0 +1,478 @@
+<html>
+    <head>
+        <title>Facebook</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light fc-navbar">
+                <a class="navbar-brand" href="#">
+                    <div class="fc-icon-navbar fc-icon-logo-facebook"></div>  
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="input-group fc-input-group-navbar mb-3">
+                        <input type="text" class="form-control fc-search-top" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="button-addon2">
+                    </div>               
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fc-nav-link" href="#">
+                                <img src="images/profile-default.png" class="rounded-circle" style="width: 22px; margin-right: 4px"/>
+                                Luciano
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fc-nav-link" href="#">Página inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fc-nav-link" href="#">Criar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fc-icon-navbar fc-icon-notificao-amizade"></div>  
+                            </a>
+                            <div class="dropdown-menu fc-dropdown" aria-labelledby="navbarDropdown">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <span class="title">Solicitações de amizade</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Encontrar amigos</a>
+                                        <a href="#">Configurações</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="row">
+                                    <div class="col-md-2" style="text-align: right">
+                                        <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-left: 10px"/>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <button class="fc-btn fc-btn-primary">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="row">
+                                    <div class="col-md-2" style="text-align: right">
+                                        <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-left: 10px"/>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <button class="fc-btn fc-btn-primary">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>     
+                                <div class="dropdown-divider"></div>
+                                <div class="row">
+                                    <div class="col-md-2" style="text-align: right">
+                                        <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-left: 10px"/>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <button class="fc-btn fc-btn-primary">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div style="text-align: center">
+                                    <a href="#">Ver tudo</a>
+                                </div>                                                              
+                            </div>
+                        </li>    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fc-icon-navbar fc-icon-notificao-messenger"></div>  
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fc-icon-navbar fc-icon-notificao-notificacoes"></div>  
+                            </a>
+                        </li>      
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fc-icon-navbar fc-icon-notificao-ajuda"></div>  
+                            </a>
+                            <div class="dropdown-menu fc-dropdown-secondary" aria-labelledby="navbarDropdown">  
+                                <span class="title" style="margin-left: 10px"><b>Ajuda Rápida</b></span>
+                                <input class="fc-form-control" placeholder="Como podemos ajudar?"/> 
+                                                           
+                                <a class="dropdown-item" href="#">Página inicial</a>
+                                <a class="dropdown-item" href="#">Linha do tempo</a>
+                                <a class="dropdown-item" href="#">Bate-papo e mensagens</a>
+                                <a class="dropdown-item" href="#">Segurança da conta</a>
+                                <a class="dropdown-item" href="#">Privacidade</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <div class="fc-icon-dropdown fc-icon-verificacao-privacidade"><label class="fc-label-item">Verificação de Privacidade</label></div>                                   
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <div class="fc-icon-dropdown fc-icon-privacidade"><label class="fc-label-item">Atalhos de Privacidade</label></div>                                   
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <label class="fc-label-item">Novas mensagens de suporte</label>                              
+                                </a>                                
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <label class="fc-label-item">Relatar um problema</label>                               
+                                </a>
+                            </div>                            
+                        </li> 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fc-icon-navbar fc-icon-notificao-mais"></div>  
+                            </a>
+                            <div class="dropdown-menu fc-dropdown-secondary" aria-labelledby="navbarDropdown">                               
+                                <a class="dropdown-item fc-dropdown-item" href="#">Gerenciar Páginas</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item fc-dropdown-item" href="#">Seus grupos</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item fc-dropdown-item" href="#">Gerenciar anúncios</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item fc-dropdown-item" href="#">Registro de Atividades</a>
+                                <a class="dropdown-item fc-dropdown-item" href="#">Preferências do Feed de Notí...</a>
+                                <a class="dropdown-item fc-dropdown-item" href="#">Configurações</a>
+                                <a class="dropdown-item fc-dropdown-item" href="#">Sair</a>
+                            </div>
+                        </li>                                                                                            
+                    </ul>
+                </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <br/>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <img src="images/profile-default.png" class="rounded-circle" style="width: 22px; margin-right: 4px"/>
+                            Luciano Lopes
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-feeds"><label style="width: 110px; font-size: 12px; margin-left: 28px;">Feed de Notícias</label></div>  
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-messenger"><span>Messenger</span></div>                           
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-watch"><span>Watch</span></div>                            
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-marketplace"><span>Marketplace</span></div>  
+                        </a>
+                    </div>  
+                    <label class="fc-label">Explorar</label>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-lembrancas"><span>Lembrancas</span></div>  
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-salvos"><span>Salvos</span></div>  
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-grupos"><span>Grupos</span></div>  
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-paginas"><span>Páginas</span></div>  
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">
+                            <div class="fc-icon fc-icon-eventos"><span>Eventos</span></div>  
+                        </a>
+                        <a href="#" class="list-group-item fc-list-group-item list-group-item-action">Ver mais...</a>
+                    </div>                    
+                </div>
+                <div class="col-md-6">
+                    <br/>
+                    <div class="row">
+                        <div class="col-md-12">
+                                <div class="card">
+                                        <div class="card-header fc-card-header">
+                                            Criar publicação
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2" style="text-align: right">
+                                                <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-top: 10px;"/>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <textarea class="form-control" placeholder="No que você esta pensando, Luciano?"></textarea>
+                                            </div>
+                                        </div>
+                                        <hr/>
+                
+                                        <div class="row" style="margin-left: 0px;">
+                                            <div class="col-md-3">
+                                                <button class="fc-btn fc-btn-rounded">
+                                                    <div class="fc-icon fc-icon-foto-video">
+                                                        <label>Foto/vídeo</label>
+                                                    </div>                                    
+                                                </button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <button class="fc-btn fc-btn-rounded">
+                                                    <div class="fc-icon fc-icon-marcar-amigos">
+                                                        <label>Marcar amigos</label>
+                                                    </div>                                    
+                                                </button>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <button class="fc-btn fc-btn-rounded">
+                                                    <div class="fc-icon fc-icon-sentimentos">
+                                                        <label>Sentimento/...</label>
+                                                    </div>                                    
+                                                </button>
+                                            </div>   
+                                            <div class="col-md-2">
+                                                <button class="fc-btn fc-btn-rounded" style="width: 40px;">
+                                                    <div class="fc-icon fc-icon-mais"></div>                                   
+                                                </button>
+                                            </div> 
+                                        </div>
+                                        <br/>              
+                                    </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div style="font-size: 14px; color: gray">
+                                        <img src="images/profile-default.png" class="rounded-circle" style="width: 40px; margin-right: 4px"/>
+                                        <a href="#"><b>Luciano Lopes</b></a> compartilhou um <a href="#">link</a> no grupo <a href="#">Lorem ipsum dolor sit</a>        
+                                    </div>
+                                    <br/>
+                                    <img src="images/banner-default.png" style="width: 100%;"/>
+                                    <br/><br/>
+                                    <a href="#">Lorem ipsum dolor sit amet</a><br/>
+                                    <span>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in feugiat mauris. Maecenas nec pharetra arcu. Cras eleifend posuere dui, in molestie eros placerat vel.
+                                    </span>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div style="text-align: right">
+                                            <span style="margin-right: 24px">1 compartilhamento 13 mil visualizações</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row" style="margin-left: 0px;">
+                                    <div class="col-md-3">
+                                        <button class="fc-btn fc-btn-white">
+                                            <div class="fc-icon">
+                                                <label>Curtir</label>
+                                            </div>                                    
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button class="fc-btn fc-btn-white">
+                                            <div class="fc-icon fc-icon-comentar">
+                                                <label>Comentar</label>
+                                            </div>                                    
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button class="fc-btn fc-btn-white">
+                                            <div class="fc-icon fc-icon-compartilhar">
+                                                <label>Compartilhar</label>
+                                            </div>                                    
+                                        </button>
+                                    </div>   
+                                </div>
+                                <br/>
+
+
+                            </div> 
+                        </div>
+                    </div> 
+
+                    <br/>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div style="font-size: 14px; color: gray">
+                                        <img src="images/profile-default.png" class="rounded-circle" style="width: 40px; margin-right: 4px"/>
+                                        <a href="#"><b>Luciano Lopes</b></a> compartilhou um <a href="#">link</a> no grupo <a href="#">Lorem ipsum dolor sit</a>        
+                                    </div>
+                                    <br/>
+                                    <img src="images/banner-default.png" style="width: 100%;"/>
+                                    <br/><br/>
+                                    <a href="#">Lorem ipsum dolor sit amet</a><br/>
+                                    <span>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in feugiat mauris. Maecenas nec pharetra arcu. Cras eleifend posuere dui, in molestie eros placerat vel.
+                                    </span>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div style="text-align: right">
+                                            <span style="margin-right: 24px">10 compartilhamento 31 mil visualizações</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row" style="margin-left: 0px;">
+                                    <div class="col-md-3">
+                                        <button class="fc-btn fc-btn-white">
+                                            <div class="fc-icon">
+                                                <label>Curtir</label>
+                                            </div>                                    
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button class="fc-btn fc-btn-white">
+                                            <div class="fc-icon fc-icon-comentar">
+                                                <label>Comentar</label>
+                                            </div>                                    
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button class="fc-btn fc-btn-white">
+                                            <div class="fc-icon fc-icon-compartilhar">
+                                                <label>Compartilhar</label>
+                                            </div>                                    
+                                        </button>
+                                    </div>   
+                                </div>
+                                <br/>
+
+
+                            </div> 
+                        </div>
+                    </div> 
+
+                </div>
+                <div class="col-md-4">
+                    <br/>
+                    <div class="card">
+                        <div class="card-header fc-card-header-secondary">
+                            Solicitações de amizade
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2" style="text-align: right">
+                                    <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-top: 10px"/>
+                                </div>
+                                <div class="col-md-10">
+                                    <div style="margin-top: 10px">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <span>3 amigos em comum</span><br/>
+                                        <button class="fc-btn fc-btn-default">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2" style="text-align: right">
+                                    <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-top: 10px"/>
+                                </div>
+                                <div class="col-md-10">
+                                    <div style="margin-top: 10px">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <span>10 amigos em comum</span><br/>
+                                        <button class="fc-btn fc-btn-default">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>
+                            </div>     
+                            <div class="row">
+                                <div class="col-md-2" style="text-align: right">
+                                    <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-top: 10px"/>
+                                </div>
+                                <div class="col-md-10">
+                                    <div style="margin-top: 10px">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <span>5 amigos em comum</span><br/>
+                                        <button class="fc-btn fc-btn-default">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>
+                            </div>                       
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="card">
+                        <div class="card-header fc-card-header-secondary">
+                            Pessoas que talvez você conheça
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2" style="text-align: right">
+                                    <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-top: 10px"/>
+                                </div>
+                                <div class="col-md-10">
+                                    <div style="margin-top: 10px">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <button class="fc-btn fc-btn-default">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2" style="text-align: right">
+                                    <img src="images/profile-default.png" class="rounded-circle" style="width: 44px; margin-top: 10px"/>
+                                </div>
+                                <div class="col-md-10">
+                                    <div style="margin-top: 10px">
+                                        <a href="#">Lorem ipsum dolor</a><br/>
+                                        <button class="fc-btn fc-btn-default">Confirmar</button>
+                                        <button class="fc-btn fc-btn-default">Excluir</button>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="card">
+                        <div class="card-header fc-card-header-secondary">
+                            Patrocinado
+                        </div>
+                        <div class="card-body">
+                            <img src="images/banner-default.png"/>
+                            <br/><br/>
+                            <a href="#">Lorem ipsum dolor sit amet</a><br/>
+                            <span>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in feugiat mauris. Maecenas nec pharetra arcu. Cras eleifend posuere dui, in molestie eros placerat vel.
+                            </span>
+                        </div>
+                    </div>
+
+                    <br/>
+                    <div class="card">
+                        <div class="card-body">
+                            <span>Português (Brasil)</span> · <a href="#">Português (Portugal)</a> · <a href="#">English (US)</a> · 
+                            <a href="#">Español (España)</a> · <a href="#">Français (France)</a>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <span>
+                        Privacidade · Termos · Anúncios · Opções de anúncio · Cookies · 
+                        Mais
+                        Facebook © 2019
+                    </span>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
