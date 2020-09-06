@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root
+{
+    --gold1:#F4BD76;
+    --gold2:#F6CD8F;
+    --gray:#ffffff80;
+    --gray2:#f7d9d990;
+    --black1:#1A1B1F;
+    --black2: #30553B;
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+}
+
+.container--modifier
+{
+    width: 60%;
+}
+
+.hero
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
+}
+
+.nav__hero
+{
+    color: #fff;
+    height: 70px;
+    border-bottom: 1px solid rgba(255, 255,255, 0.1);
+}
+
+.nav__container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.logo__name
+{
+    font-size: 24px;
+}
+
+.link
+{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.link--active
+{
+    color: var(--gold1);
+    font-weight: 700;
+}
+
+.point
+{
+    color: var(--gold1);
+}
+
+.hero__main
+{
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.mockup
+{
+    object-fit: cover;
+    height: calc(100vh - 70px);
+}
+.section__subtitle
+{
+    color: #fff;
+    margin-left: 10px;
+}
+.section__subtitle::before
+{
+    content:'';
+    position: absolute;
+    border-left: 3px solid var(--gold1);
+    height: 17px;    
+    padding-right: 10px;
+    margin-left: -10px;
+}
+
+
+.title
+{
+    font-size: 56px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.title--active
+{
+    color: var(--gold1);
+    font-weight: 700 ;
+}
+
+.copy
+{
+    font-size: 24px;
+    color: var(--gray);
+    text-shadow: var(--shadow) var(--color_shadow);
+    margin: 15px 0;
+}
+
+.copy__active
+{
+    font-weight: 700;
+}
+
+.cta
+{
+    padding: 20px 30px;
+    display: inline-block;
+    background: linear-gradient(180deg, #F7CE90 0%, var(--gold2) 100%);
+    text-decoration: none;
+    color: var(--black1);
+    font-weight: 700;
+    box-shadow:  var(--shadow) var(--color_shadow);
+    border-radius: 6px;
+}
