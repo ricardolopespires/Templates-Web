@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.body
+{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+
+.navbar-default{
+	background-color: transparent !important; 
+}
+
+
+nav  a img
+{
+    width: 135px;
+    margin-left: 40px;
+    margin-top: 14px;
+}
+
+nav a button
+{
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    top: .5rem;
+    position: relative;
+    margin-right: 60px;
+    
+
+}
+
+
+.banner-haker
+{
+    width: 100%;
+    height: 628px;
+    background: linear-gradient(to top ,rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    margin-top: -10px;
+    z-index: -1;
+    border-bottom: 10px solid #333;
+  
+}
+
+.banner-info
+{
+    width: 60%;
+    height: 280px;
+    color: #fff;
+    margin-top: 145px;
+    text-align: center;
+    align-items: center;
+    margin-left: 250px;
+
+}
+
+
+.banner-text
+{
+    width: 100%;
+    
+}
+.banner-title
+{
+    width: 70%;
+    margin-left: 65px;
+    font-weight: 600;
+    font-size: 52px;
+    top: 5px;
+    position: relative;
+    text-align: center;
+   
+}
+
+.banner-subtitle
+{
+    margin-left: 60px;
+    font-size: 28px;
+}
+
+.banner-paragraph
+{
+    font-size: 19px;
+}
+
+
+
+.text-input
+{ 
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+    
+input[type="text"]{
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
+}
+    
+   
+    
+.input-group--modifier
+{
+    width: 61%!important;
+    
+}
+
+.input-group--modifier input
+{
+    border-radius: 0px;
+}
+ 
+.input-group--modifier  button
+{
+    background: #e50914;
+    border-radius: 0px;
+    font-size: 28px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.input-group--modifier button:hover
+{
+    background: #e50914;
+}
+
+
+input[type="text"]:focus
+{
+    padding: 10px;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.2s;
+}
+
+.banner
+{
+    color: #fff;
+    margin-top: 190px;
+}
+
+.section-banner
+{
+    width: 100%;
+    height: 470px;
+    background: #000;
+   margin-top: 540px;
+   margin-bottom: 190px;
+   border-bottom: 10px solid #333;
+}
+
+
+.img-float-right
+{
+    float: right;   
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.img-float-right  .img-telefone
+{
+    width: 590px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/televisor.png);
+}
+
+.img-float-left
+{
+    float: left;
+}
+
+
+.section-banner-title
+{
+    text-align: left;      
+    color: #fff;
+    margin-top: 125px;
+    margin-left: 128px;
+    width: 100%;
+}
+
+.section-banner-title h1
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 19px;    
+}
+
+.section-banner-title h2
+{
+    font-size: 28px;
+    float: left;
+}
+
+
+.banner-img-rack
+{
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.banner-img-rack img
+{
+    width: 490px;
+}
