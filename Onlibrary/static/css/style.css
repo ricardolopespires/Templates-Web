@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&family=Quicksand:wght@300;500;700&family=Sansita+Swashed:wght@300;600&family=Secular+One&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,300;1,400;1,900&display=swap');
+
+/*
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Sansita Swashed', cursive;
+  font-family: 'Secular One', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
+  */
+
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  font-family: 'Sansita Swashed', cursive;
+}
+
+nav
+{
+   box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+   background: #fff;
+}
+
+.logo
+{
+  width:190px;
+  height: 50px;
+  margin-left: 70px;
+  
+}
+
+.nav-link
+{
+  font-size: 17px;
+  color:  #999999!important;
+  position: relative;
+  margin-right: 40px;
+}
+
+.nav-link:hover
+{
+  color: #F4BD76!important;
+}
+
+.nav-link:hover:before {
+  border-bottom: 4px solid #F4BD76;
+  content: '';
+  position: absolute;
+  left: 10px;
+  right: 0;
+  width: 70%;
+  bottom: 0;
+  margin: 0 auto;
+  
+  top: 57px;
+}
+
+nav ul li a:hover:after
+{
+    transform: translateX(-50%) scaleX(1);
+    -webkit-transform: translateX(-50%) scaleX(1);
+}
+
+.login
+{
+  border: 1px solid #F4BD76;
+  display: block;
+  padding: .5rem 1rem;
+  font-size: 17px;
+  color:  #999999!important;
+  position: relative;
+
+}
+.login:hover
+{
+  text-decoration: none;
+}
+
+
+#navbarNav
+{
+  margin-right: 70px;
+}
+.main
+{
+  background-image: linear-gradient(to top ,rgba(0,0,0,0.9), rgba(0,0,0,.4), rgba(0,0,0,0.9)), url(../img/books-1617327_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 640px;
+  border-bottom: 10px solid  #F4BD76;  
+  color: #fff;
+  z-index: 0;
+}
+
+.jumbotron
+{
+  background: transparent!important;
+  position:relative;
+  float: left;
+ 
+}
+
+.banner-title
+{
+  width: 100%;
+  margin-top: 100px;  
+  margin-left: 90px;
+}
+
+.banner-title h1
+{
+  color: #fff;  
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+
+.banner-title span
+{
+  color: #F4BD76;
+}
+
+.team
+{
+  width: 100%;
+  height: 619px;
+  border-bottom: 10px solid  #F4BD76;  
+}
+
+
+.team-desktop img
+{
+  
+  float: left;
+  width: 400px;
+  margin-top: 150px;
+
+
+}
+
+.desktop-text 
+{
+  float: right;
+  margin-top: 170px;
+  
+}
+
+.desktop-text h1
+{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.desktop-text span
+{
+  color: #F4BD76;
+}
+
+.desktop-text p
+{
+  text-align: justify;
+  font-size: 17px;
+}
+
+
+
+.ranking
+{
+  width: 100%;
+  height: 600px;
+  border-bottom: 10px solid  #F4BD76; 
+}
+
+.top-ranking
+{
+  background-image: linear-gradient(to top ,rgba(0,0,0,0.9), rgba(0,0,0,.7), rgba(0,0,0,0.9)), url(../img/pexels-taryn-elliott-4390582.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 640px;   
+  color: #fff;
+  z-index: 0;
+}
+
+
+
+
+
+
+.publishing
+{
+  width: 100%;
+  height: 600px;
+  border-bottom: 4px solid #F4BD76;
+}
